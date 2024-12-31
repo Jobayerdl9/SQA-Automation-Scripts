@@ -31,7 +31,7 @@ public class edge_final {
             WebElement password = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("password")));
             WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.className("ant-btn")));
 
-            username.sendKeys("Shahriyar@yopmail.com");
+            username.sendKeys("jobayer.bhaijan@gmail.com");
             password.sendKeys("Carelogix24!!");
             loginButton.click();
 
